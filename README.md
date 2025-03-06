@@ -11,8 +11,7 @@ This is a fun web-based game where the player tries to guess a randomly generate
 - Instant feedback upon submission.
   
 ## 🚀 Live Demo
-
-You can explore the live version of my portfolio here: [Portfolio on Vercel](https://portfolio-eight-sandy-19.vercel.app/)
+[Guess-the-number-using-Js](https://nagendrasriram.github.io/Guess-the-number-using-Js/)
 
 ## 🛠️ Technologies Used
 - HTML
