@@ -9,9 +9,10 @@ This is a fun web-based game where the player tries to guess a randomly generate
 - Random number generation between 1 and 10.
 - Simple and user-friendly interface.
 - Instant feedback upon submission.
+  
+## 🚀 Live Demo
 
-## 📷 Screenshot
-![Game Screenshot](screenshot.png) *(Replace with an actual screenshot of your game)*
+You can explore the live version of my portfolio here: [Portfolio on Vercel](https://portfolio-eight-sandy-19.vercel.app/)
 
 ## 🛠️ Technologies Used
 - HTML
