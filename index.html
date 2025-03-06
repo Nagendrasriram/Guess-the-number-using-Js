@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        input {
+            padding: 10px;
+            margin: 10px;
+            width: 20%;
+            text-align: center;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        p {
+            font-size: 20px;
+            color: #333;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Guess the number</h1>
+    <input type="number" id="guess" placholder="Enter your guess">
+    <button onclick="checkGuess()">Submit</button>
+    <p id="result"></p>
+    
+    <script>
+        let ran = Math.floor(Math.random()*10)+1;
+        function checkGuess()
+        {
+            let userguess= document.getElementById('guess').value;
+            let result=document.getElementById('result');
+            if(userguess==ran)
+            {
+                result.textContent= "🎉 Correct! You guessed it!";
+
+            }
+            else
+            {
+                result.textContent= "❌ Wrong! The number was "+ran;
+            }
+        }
+    </script>
+</body>
+</html>
